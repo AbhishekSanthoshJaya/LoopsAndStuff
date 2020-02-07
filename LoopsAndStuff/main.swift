@@ -102,3 +102,26 @@ print(country)
 
 var c1 = country[2...3]
 print(c1)
+
+print(c1)
+c1[2] = "Hello"
+
+print(c1)
+print(country)
+
+var x = Array<Int>(repeating: 0, count:10)
+print(type(of: country))
+print(type(of: c1))
+print(type(of: x))
+
+var z = Array<Double>()
+z.append(100.0)
+print(z)
+
+country.shuffle()
+print(country)
+
+var p: [Int]
+p = [Int]()
+p.append(100)
+print(p)
